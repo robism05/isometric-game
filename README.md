@@ -5,7 +5,7 @@
 Hello all,
 
 I have been learning C for ~1 month now and I wanted to test my skills.
-My code is a burning garbage dumbster fire. It sucks.
+My code is a burning garbage dumpster fire. It sucks.
 
 I tried to plan in out into sepearate files but I would always forget
 where each thing needed to go and how to call in this file
