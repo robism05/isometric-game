@@ -19,7 +19,6 @@ but hopefully thorugh trial and error, I can only get better from here on out.
 Oh and ofc you need to install SDL for your system in order to run then do:
 
 ```
-$ make
-
-$ ./bin/game
+make
+ ./bin/game
 ```
