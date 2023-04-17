@@ -43,8 +43,8 @@ PlayerAnimation LoadIdleAnimation(SDL_Renderer* renderer)
 
     // Load textures for each frame
     for (int i = 0; i < idleAnimation.numFrames; i++) {
-        char filename[55];
-        sprintf(filename, "res/textures/animation/player_idle/player-idle%d.png", i + 1);
+        char filename[60];
+        sprintf(filename, "../res/textures/animation/player_idle/player-idle%d.png", i + 1);
         idleAnimation.frames[i] = IMG_LoadTexture(renderer, filename);
     }
 
@@ -64,7 +64,7 @@ PlayerAnimation LoadRunAnimation(SDL_Renderer* renderer)
 
     for (int i = 0; i < runAnimation.numFrames; i++){
         char filename[60];
-        sprintf(filename, "res/textures/animation/player_run/player-run%d.png", i + 1);
+        sprintf(filename, "../res/textures/animation/player_run/player-run%d.png", i + 1);
         runAnimation.frames[i] = IMG_LoadTexture(renderer, filename);
     }
     return runAnimation;
@@ -146,6 +146,7 @@ int main() {
 
         // Render animation
         RenderPlayerAnimation(&idleAnimation, renderer, playerX, playerY);
+
         
         // event loop
         while (SDL_PollEvent(&event)){
@@ -158,13 +159,11 @@ int main() {
                 int key = event.key.keysym.sym;
                 if (event.key.keysym.sym == SDLK_LEFT){
                     playerX -= 20;
-                    RenderPlayerAnimation(&runAnimation, renderer, playerX, playerY);
-                    SDL_Delay(16);
+                    //RenderPlayerAnimation(&runAnimation, renderer, playerX, playerY);
                 } else if (event.key.keysym.sym == SDLK_RIGHT){
                     playerX += 20;
-                    RenderPlayerAnimation(&runAnimation, renderer, playerX, playerX);
-                    SDL_Delay(16);
-                }
+                    //RenderPlayerAnimation(&runAnimation, renderer, playerX, playerX);
+                } 
             }
         }
 
