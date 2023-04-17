@@ -6,3 +6,4 @@ other/
 #files
 .DS_Store
 *.o
+*.py
