@@ -1,5 +1,6 @@
 #folders
 bin/
+other/
 *.dSYM/
 
 #files
