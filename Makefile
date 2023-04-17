@@ -1,9 +1,9 @@
-# compile with: clang main.c -o main -lm -SDL2 -lSDL2_image -lSDL2_mixer
+# Libraries are -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
 
 CC = clang
 CFLAGS = -std=c18 -O3 -g -Wall -Wextra -Wpedantic -Wstrict-aliasing
-CFLAGS += -Wno-pointer-arith -Wno-newline-eof -Wno-unused-parameter -Wno-gnu-statement-expression
-CFLAGS += -Wno-gnu-compound-literal-initializer -Wno-gnu-zero-variadic-macro-arguments
+CFLAGS += -Wno-pointer-arith -Wno-newline-eof -Wno-unused-parameter -Wno-unused-variable 
+CFLAGS += -Wno-gnu-statement-expression -Wno-gnu-compound-literal-initializer -Wno-gnu-zero-variadic-macro-arguments
 
 LDFLAGS = -lSDL2 -lSDL2_image -lSDL2_mixer
 

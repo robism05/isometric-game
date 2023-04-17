@@ -53,10 +53,8 @@ int main(int argc, char* argv[]) {
             mouseY = event.motion.y;
             
             // Render the texture at the mouse cursor's location
-            if (mouseX==mouseY){
-                printf("mouseX: %d\nmouseY: %d\n",mouseX,mouseY);
-                renderTexture(mouseX, mouseY);
-            }
+            //printf("mouseX: %d\nmouseY: %d\n",mouseX,mouseY);
+            renderTexture(mouseX, mouseY);
         }
     }
 

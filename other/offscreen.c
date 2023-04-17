@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#include "lib/SDL2/SDL.h"
-#include "lib/SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 
-#define BACKGROUND_IMAGE "res/textures/grid.png"
+#define BACKGROUND_IMAGE "../res/textures/grid.png"
 #define MAP_W 400
 #define MAP_H 300
 #define BLOCK_SIZE 32
@@ -55,7 +55,7 @@ int main() {
     SDL_Rect backgroundRect = { 0, 0, SCREEN_WIDTH * 2, SCREEN_HEIGHT * 2 };
 
     // Load images
-    SDL_Surface* playerSurface = IMG_Load("res/textures/player.png");
+    SDL_Surface* playerSurface = IMG_Load("../res/textures/animation/player_idle/player-idle1.png");
     SDL_Texture* playerTexture = SDL_CreateTextureFromSurface(renderer, playerSurface);
     SDL_FreeSurface(playerSurface);
 

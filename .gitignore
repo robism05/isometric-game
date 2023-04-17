@@ -1,6 +1,6 @@
 #folders
 bin/
-other/
+#other/
 *.dSYM/
 
 #files

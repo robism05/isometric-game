@@ -88,7 +88,7 @@ int main(int argc, char* args[]) {
     }
 
     // Load player texture
-    playerTexture = loadTexture("../res/textures/player.png", renderer);
+    playerTexture = loadTexture("../res/textures/animation/player_idle/player-idle1.png", renderer);
     if (!playerTexture) {
         SDL_DestroyRenderer(renderer);
         SDL_DestroyWindow(window);

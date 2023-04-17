@@ -1,3 +1,7 @@
+# Isometric game
+
+![screenshot](screenshots/image1.png)
+
 Hello all,
 
 I have been learning C for ~1 month now and I wanted to test my skills.
@@ -13,8 +17,6 @@ but hopefully thorugh trial and error, I can only get better from here on out.
 - Arrow keys to move vertically/horizontally
 - WASD to move diagonally along the grid
 - triple space bar in a row to jump
-
-![screenshot](screenshots/image1.png)
 
 Oh and ofc you need to install SDL for your system in order to run then do:
 
