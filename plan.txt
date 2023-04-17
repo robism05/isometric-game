@@ -1,0 +1,27 @@
+lets write some random bs here
+
+
+Idea 1
+- terra nil and outlanders 
+- you have to collect resources to make devices/electroics and you make money
+- but the more you excavate and mine, the weaker the planet gets
+- you can either develop technological solutions to save the planet or you can simply replant and regrow
+- if the planet dies (also add cool explosion scene) it is game over
+- but the goal is to make money while keeping the planet healthy and alive.
+
+Idea 2
+- you are greta thunberg and you beat up corrupt politicians
+- facts and logic come out of every punch and kick
+
+Idea 3
+- like a card game
+- basically..
+
+
+The Story Board
+=================
+We start off in a factory. A help screen pops up and shows us the controls (how to move around, jump, etc)
+Then the help menu fades out and the music fades in. The story begins.
+
+Inside the factory you can see the moving pieces and assembly happening. A pop up box tells you they
+are manufacturing electric cars

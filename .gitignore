@@ -1,0 +1,6 @@
+#folders
+bin/
+*.dSYM/
+
+#files
+.DS_Store
